@@ -4,7 +4,7 @@ var bodyParser = require("body-parser");
 var app = express();
 var nodemailer = require('nodemailer');
 var transporter = nodemailer.createTransport();
-var port = 8080;
+var port = process.env.PORT;
 var ip = process.env.IP;
  console.log('Listening on port: '+ port);
   app.use(express.static(path.join(__dirname + "/client")));
