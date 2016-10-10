@@ -1,0 +1,45 @@
+
+<div class="anchorSkill">
+    <a href="/#/home"><i class="fa fa-home fa-3x" aria-hidden="true"></i></a>
+</div>
+
+<div class="projects" ng-controller="workController">
+        <hr><h2>
+            Front End Projects
+        </h2>
+        <hr>
+        <div class="row" >
+            <div class="col-xs-4 workDiv" ng-repeat = "image in img1">
+                <a href="{{link1[$index]}}" class="thumbnail" target="_blank">
+                    <img src={{image}} style="width:500px;height:200px" title="{{title1[$index]}}">
+                </a>
+                
+            </div>
+        </div>
+        <hr><h2>
+            Back End Projects
+        </h2>
+        <hr>
+        <div class="row" >
+            <div class="col-xs-4 workDiv" ng-repeat = "image in img2">
+                <a href="{{link2[$index]}}" class="thumbnail" target="_blank">
+                    <img src={{image}} style="width:500px;height:200px" title="{{title2[$index]}}">
+                </a>
+            </div>
+        </div>
+        <hr><h2>
+            Full Stack Project
+        </h2>
+        <hr>
+        <div class="row" >
+            <div class="col-xs-4 workDiv"></div>
+            <div class="col-xs-4 workDiv">
+                <a href="https://ide.c9.io/ajinkya009/fcc_voting_app" class="thumbnail" target="_blank">
+                    <img src="/../img/voting_app.jpg" style="width:500px;height:250px" title="Voting application">
+                </a>
+            </div>
+            
+            <div class="col-xs-4 workDiv"></div>
+        </div>
+
+</div>
