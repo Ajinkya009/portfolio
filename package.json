@@ -5,10 +5,13 @@
   "main": "server.js",
   "author": "Ajinkya Deshmukh<ajinkyadeshmukh9@gmail.com>",
   "dependencies": {
-    "async": "~0.2.8",
     "express": "~3.2.4",
     "nodemailer": "^2.6.4",
-    "body-parser":"1.15.2"
+    "body-parser":"1.15.2",
+    "path":"2.15.9"
+  },
+  "engines": {
+    "node": "4.4.5"
   },
   "scripts": {
     "start": "node server.js"
