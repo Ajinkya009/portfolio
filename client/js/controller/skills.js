@@ -10,7 +10,7 @@ ang.controller('skillsController',function(){
               labels: ['HTML5/CSS3','JavaScript','NodeJs','ExpressJs','MongoDB','AngularJs','C'],
               datasets: [{
                   label:"",
-                  data: ["50","75","60","60","65","60","80"],
+                  data: ["65","75","75","70","70","60","80"],
                   backgroundColor: [
                       'rgba(255, 99, 132, 1)',
                       'rgba(54, 162, 235, 1)',
